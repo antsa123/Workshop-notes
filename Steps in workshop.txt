@@ -1,0 +1,17 @@
+Steps:
+
+- create folder called authentication_service
+- init a git repository in the folder (git init)
+- create README.md, main.py, requirements.txt and folders for tests, auth, docs and scripts
+- create virtual environment for the python version you are using (could be a dockerfile as well)
+  - "path to python" -m venv ENV_DIR
+  - Then inside the virtual environment install the dependencies etc and run your code.
+  - add the ENV_DIR to git ignore ´´´echo "ENV_DIR" > .gitignore´´´
+  - freeze the requirements that are installed in the virtual environment ´´´pip freeze > requirements.txt´´´
+  - type deactivate to jump out of the virtual environment
+  - Add git ignore and requirements.txt to repo
+
+
+
+pip install -r requirements.txt
+

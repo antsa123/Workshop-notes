@@ -1,0 +1,14 @@
+Cheat sheet:
+
+- Virtuaaliympäristö:
+    - Sisään ./virtuaalikansio/Scripts/activate.ps1
+    - Ulos deactivate
+    - Riippuvuuksien lukitseminen pip freeze > requirements.txt
+  
+- Linttaus  
+    - flake8 . --extend-exclude=dist,build,python38env --show-source --statistics
+    
+- Coverage
+    - pip install coverage
+    - coverage -m unittest
+    - coverage html (or coverage report)
